@@ -17,7 +17,7 @@
     let config = sizeConfig[currentSize] || sizeConfig.small;
 
     const API_BASE_URL = 'https://acp-backend-services.fly.dev';
-    const IMG_AGENT_URL = "https://amtnllcufrickxadosoq.supabase.co/storage/v1/object/public/embedscripts/customer-service.png";
+    const IMG_AGENT_URL = "https://raw.githubusercontent.com/Assistifai/embedscripts/refs/heads/main/customer-service.svg";
 
     const ICON_CLOSE = `
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 24px; height: 24px;">
