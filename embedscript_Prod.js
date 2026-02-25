@@ -7,6 +7,7 @@
     let assistantDetails = null;
     
     let assistantColor = '#efefef';
+    // checking purge capability of jsdelivr.
 
     const sizeConfig = {
         small: { width: 400, height: 600, buttonSize: 60 },
