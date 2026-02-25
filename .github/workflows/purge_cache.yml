@@ -1,0 +1,13 @@
+name: Purge jsDelivr Cache
+on:
+  push:
+    branches:
+      - main  # Runs every time you push to main
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge cache
+        run: |
+          curl -i https://purge.jsdelivr.net/gh/${{ github.repository }}@main/embedscript_Prod.js
