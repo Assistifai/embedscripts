@@ -8,6 +8,7 @@
     
     let assistantColor = '#efefef';
     // checking purge capability of jsdelivr.
+    // check v2 purge of jsdelivr.
 
     const sizeConfig = {
         small: { width: 400, height: 600, buttonSize: 60 },
